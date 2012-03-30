@@ -1,0 +1,27 @@
+{
+  "name": "PinIt for Google Plus™",
+  "version": "1.2.5",
+  "description": "Put a pin in your favourite post and add it to the sidebar in Google+",
+  "background_page": "background.html",
+  "icons": { "16": "icon16.png",
+           "48": "icon48.png",
+          "128": "icon128.png" },
+  "minimum_chrome_version": "12",
+  "content_scripts": [
+    {
+      "matches": ["http://plus.google.com/*", "https://plus.google.com/*"],
+      "js": ["jquery-1.5.1.min.js", "script.js"]
+    }
+  ],
+  "permissions": [
+	"background",
+	"tabs",
+	"http://plus.google.com/*",
+	"https://plus.google.com/*",
+	"notifications",
+	"unlimitedStorage"
+	],
+  "browser_action": {
+    "default_icon": "icon.png"
+  }
+}

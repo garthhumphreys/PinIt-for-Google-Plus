@@ -1,0 +1,1 @@
+PinIt for Google Plus™ is a simple Chrome plugin that allows you to bookmark your favourite post and add them to a sidebar. For more info goto, https://plus.google.com/110099175671440154323/posts/SVtdK1d1jTC?hl=en
